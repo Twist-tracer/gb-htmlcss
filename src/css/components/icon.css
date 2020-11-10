@@ -1,0 +1,25 @@
+.icon {
+    display: inline-block;
+    background-image: url(../../img/social-links.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    box-shadow: 0px 0px 4px -1px #212121;
+    cursor: pointer;
+}
+
+.icon_facebook {
+    background-position: 0;
+}
+.icon_twitter {
+    background-position: -34px;
+}
+.icon_gplus {
+    background-position: -67px;
+}
+.icon_pinterest {
+    background-position: -101px;
+}

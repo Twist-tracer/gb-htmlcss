@@ -1,0 +1,37 @@
+.contact {
+    box-sizing: border-box;
+    width: 370px;
+    min-height: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    text-align: center;
+    padding: 48px 0;
+}
+
+.contact__title {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+
+.contact__list {
+    margin: 23px auto 0;
+    width: 281px;
+}
+
+.contact__list > dt,
+.contact__list > dd {
+    color: #6c6c6c;
+    font-size: 14px;
+}
+
+.contact__list > dt {
+    font-weight: 700;
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+@import url('contact.css');
+
+.contacts__item {
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.contacts__item:nth-child(3n) {
+    margin-right: 0;
+}

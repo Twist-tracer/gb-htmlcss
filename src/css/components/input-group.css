@@ -1,0 +1,38 @@
+.input-group {
+    position: relative;
+}
+
+.input-group > input {
+    width: 330px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    padding: 17px 19px;
+}
+
+.input-group > input::placeholder {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.input-group > input+button[type="submit"],
+.input-group > input+input[type="submit"] {
+    position: absolute;
+    height: 47px;
+    width: 47px;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    top: 2px;
+    right: 2px;
+}
+
+.input-group > input+button[type="submit"]:after,
+.input-group > input+input[type="submit"]:after {
+    content: url(../../img/plain.png);
+}
+
+.input-group > input+button[type="submit"]:hover,
+.input-group > input+input[type="submit"]:hover {
+    cursor: pointer;
+}

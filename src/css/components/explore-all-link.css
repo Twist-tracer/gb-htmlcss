@@ -1,0 +1,18 @@
+.explore-all-link {
+    float: right;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.explore-all-link::after {
+    content: url(../../img/arrow-small.svg);
+    width: 9px;
+    height: 12px;
+    margin-left: 5px;
+}

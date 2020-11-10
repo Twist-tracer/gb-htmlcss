@@ -1,0 +1,52 @@
+@import url('circle.css');
+
+.slider {
+    height: 800px;
+    position: relative;
+}
+
+.slider_chairs {
+    background-image: url(../../img/slider-img.jpg);
+}
+
+.slider_table {
+    background-image: url(../../img/slider-img2.jpg);
+}
+
+.slider__text {
+    padding-top: 283px;
+}
+
+.slider__label {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider__label_hot {
+    color: #e53935;
+}
+
+.slider__title {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider__content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin: 20px 0 20px 0;
+    line-height: 24px;
+}
+
+.slider__pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}

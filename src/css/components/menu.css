@@ -1,0 +1,25 @@
+.menu__item {
+    list-style-type: none;
+    float: left;
+}
+
+.menu__item-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu__item-link_active {
+    color: #212121;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.menu__item-link:hover {
+    color: #212121;
+}

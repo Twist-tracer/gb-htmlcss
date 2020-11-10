@@ -1,0 +1,111 @@
+@import url('icon.css');
+@import url('input-group.css');
+
+.footer {
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer__contacts,
+.footer__userful,
+.footer__lets,
+.footer__copyright,
+.footer__social,
+.footer__terms {
+    float: left;
+}
+
+.footer__contacts {
+    width: 225px;
+    margin-right: 76px;
+}
+
+.footer__contacts-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+
+    white-space: pre-line;
+}
+
+.footer__userful {
+    width: 422px;
+    margin-right: 77px;
+}
+
+.footer__lets {
+    width: 370px;
+}
+
+.footer__lets-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer__h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.footer__userful-item {
+    list-style-type: none;
+}
+
+.footer__userful-link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 26px;
+}
+
+.footer__userful-list {
+    float: left;
+    margin-right: 103px;
+}
+
+.footer__userful-list:last-child {
+    margin-right: 0;
+}
+
+.footer__copyright {
+    width: 362px;
+    margin-right: 168px;
+}
+
+.footer_bottom {
+    margin-top: 59px;
+}
+
+.footer__social {
+    margin-right: 172px;
+}
+
+.footer__copyright-text,
+.footer__terms-text {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__terms-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__terms-text a:hover {
+    color: #212121;
+}
+
+.footer__form {
+    margin-top: 26px;
+}

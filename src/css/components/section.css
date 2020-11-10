@@ -1,0 +1,18 @@
+.section_padding {
+    padding: 0 98px;
+}
+
+.section_featured {
+    padding-top: 120px;
+    padding-bottom: 95px;
+}
+
+.section_contactus {
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.section_contacts {
+    padding-top: 71px;
+    padding-bottom: 122px;
+}
