@@ -1,4 +1,4 @@
-@import url('circle.css');
+@import "circle.scss";
 
 .slider {
     height: 800px;
@@ -6,11 +6,11 @@
 }
 
 .slider_chairs {
-    background-image: url(../../img/slider-img.jpg);
+    background-image: url(../img/slider-img.jpg);
 }
 
 .slider_table {
-    background-image: url(../../img/slider-img2.jpg);
+    background-image: url(../img/slider-img2.jpg);
 }
 
 .slider__text {
