@@ -3,6 +3,7 @@ const gulpClean = require('gulp-clean');
 const gulpSass = require('gulp-sass');
 const gulpCssMin = require('gulp-cssmin');
 const gulpRename = require('gulp-rename');
+const gulpSourceMaps = require('gulp-sourcemaps');
 
 function clean() {
     return src('./assets/*')
@@ -21,7 +22,9 @@ function copy(cb) {
 
 function sass() {
     return src('./src/css/**/*.scss')
+        .pipe(gulpSourceMaps.init())
         .pipe(gulpSass({outputStyle: 'expanded'}))
+        .pipe(gulpSourceMaps.write('.'))
         .pipe(dest('./assets/css'));
 }
 
