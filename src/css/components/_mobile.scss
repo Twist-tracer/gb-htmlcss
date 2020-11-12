@@ -1,0 +1,33 @@
+.mobile-app {
+  height: 516px;
+  background-image: url(../img/back-img.jpg);
+}
+
+.mobile-app__text {
+  padding-top: 125px;
+  width: 480px;
+}
+
+.mobile-app__label {
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mobile-app__h2 {
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 72px;
+  margin-top: 22px;
+}
+
+.mobile-app__content {
+  color: #6c6c6c;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 26px;
+  margin-bottom: 33px;
+}

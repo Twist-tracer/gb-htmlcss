@@ -1,0 +1,14 @@
+.products {
+  &__item {
+    float: left;
+    margin: 0 30px 30px 0;
+    position: relative;
+  }
+
+  $vars: 2, 3, 4;
+  @each $var in $vars {
+    &_#{$var} > &__item:nth-child(#{$var}n) {
+      margin-right: 0;
+    }
+  }
+}
