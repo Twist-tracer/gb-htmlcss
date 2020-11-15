@@ -1,16 +1,16 @@
-@import "circle.scss";
+@import "circle";
 
 .slider {
     height: 800px;
     position: relative;
-}
 
-.slider_chairs {
-    background-image: url(../img/slider-img.jpg);
-}
+    &_chairs{
+        background-image: url(../img/slider-img.jpg);
+    }
 
-.slider_table {
-    background-image: url(../img/slider-img2.jpg);
+    &_table {
+        background-image: url(../img/slider-img2.jpg);
+    }
 }
 
 .slider__text {

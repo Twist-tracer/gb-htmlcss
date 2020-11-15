@@ -1,0 +1,26 @@
+.submenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  &__item {
+    list-style-type: none;
+  }
+
+  &__link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+
+    &:hover,
+    &_active {
+      color: #212121;
+    }
+  }
+}
